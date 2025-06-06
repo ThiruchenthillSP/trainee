@@ -1,0 +1,64 @@
+body
+{
+    background-color : black;
+}
+
+p
+{
+    color : white;
+    font-family : 'Poppins', sans-serif;
+}
+
+a
+{
+    text-decoration : none;
+    color : white;
+    font-family : 'Poppins', sans-serif;
+}
+
+a:hover
+{
+    text-decoration : underline;
+}
+
+button
+{
+    all : unset;
+    background-color : dimgray;
+}
+
+.container
+{
+    backdrop-filter : blur(10px);
+    background-color: black;
+    border : 1px solid white;
+    border-radius : 10px;
+}
+
+.listcontainer
+{
+    display : flex;
+    flex-direction : row;
+    background-color : #3b3b3b;
+    margin-bottom : 2vh;
+    margin-left : 2vh;
+    margin-right : 2vh;
+    width : 97%;
+    height : 30vh;
+    border-radius : 20px;
+    z-index : -100;
+}
+
+.picturecontainer
+{
+    height : 90%;
+    width : 20%;
+    border-radius : 20px;
+    margin : 10px;
+    background-color : white;
+    overflow : hidden;
+}
+*
+{
+    font-family : 'Poppins', sans-serif;
+}
